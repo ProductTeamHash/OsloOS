@@ -46,21 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainMenu.cs">
+    <Compile Include="Home And Integrated Apps\MainMenu + PullDownMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainMenu.Designer.cs">
+    <Compile Include="Home And Integrated Apps\MainMenu + PullDownMenu.Designer.cs">
+      <DependentUpon>MainMenu + PullDownMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home And Integrated Apps\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home And Integrated Apps\MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SwipeDownMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SwipeDownMenu.Designer.cs">
-      <DependentUpon>SwipeDownMenu.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="MainMenu.resx">
+    <EmbeddedResource Include="Home And Integrated Apps\MainMenu + PullDownMenu.resx">
+      <DependentUpon>MainMenu + PullDownMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home And Integrated Apps\MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -73,9 +76,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SwipeDownMenu.resx">
-      <DependentUpon>SwipeDownMenu.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

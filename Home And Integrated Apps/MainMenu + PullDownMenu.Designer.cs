@@ -1,7 +1,7 @@
 ﻿
-namespace OsloOS
+namespace OsloOS.Home_And_Integrated_Apps
 {
-    partial class SwipeDownMenu
+    partial class MainMenu___PullDownMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -31,13 +31,16 @@ namespace OsloOS
         {
             this.SuspendLayout();
             // 
-            // SwipeDownMenu
+            // MainMenu___PullDownMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1146, 439);
-            this.Name = "SwipeDownMenu";
-            this.Text = "SwipeDownMenu";
+            this.BackgroundImage = global::OsloOS.Properties.Resources.OsloOS_MainMenu_DarkMode;
+            this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "MainMenu___PullDownMenu";
+            this.Text = "MainMenu___PullDownMenu";
+            this.Load += new System.EventHandler(this.MainMenu___PullDownMenu_Load);
             this.ResumeLayout(false);
 
         }

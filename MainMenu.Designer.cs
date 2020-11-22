@@ -46,6 +46,7 @@
             this.SwipeDownMenuButton1.Size = new System.Drawing.Size(607, 28);
             this.SwipeDownMenuButton1.TabIndex = 0;
             this.SwipeDownMenuButton1.UseVisualStyleBackColor = false;
+            this.SwipeDownMenuButton1.Click += new System.EventHandler(this.SwipeDownMenuButton1_Click);
             // 
             // SwipeDownMenuButton2
             // 
@@ -61,6 +62,7 @@
             this.SwipeDownMenuButton2.Size = new System.Drawing.Size(521, 35);
             this.SwipeDownMenuButton2.TabIndex = 1;
             this.SwipeDownMenuButton2.UseVisualStyleBackColor = false;
+            this.SwipeDownMenuButton2.Click += new System.EventHandler(this.SwipeDownMenuButton2_Click);
             // 
             // MainMenu
             // 

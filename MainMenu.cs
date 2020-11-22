@@ -21,5 +21,15 @@ namespace OsloOS
         {
 
         }
+
+        private void SwipeDownMenuButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SwipeDownMenuButton2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

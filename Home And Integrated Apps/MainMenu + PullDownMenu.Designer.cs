@@ -35,7 +35,7 @@ namespace OsloOS.Home_And_Integrated_Apps
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::OsloOS.Properties.Resources.OsloOS_MainMenu_DarkMode;
+            this.BackgroundImage = global::OsloOS.Properties.Resources.OsloOS_MainMenu___PullDown_DarkMode;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainMenu___PullDownMenu";

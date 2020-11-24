@@ -83,6 +83,16 @@ namespace OsloOS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap OsloOS_MainMenu___PullDown_DarkMode {
+            get {
+                object obj = ResourceManager.GetObject("OsloOS MainMenu + PullDown DarkMode", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap OsloOS_MainMenu_DarkMode {
             get {
                 object obj = ResourceManager.GetObject("OsloOS MainMenu DarkMode", resourceCulture);

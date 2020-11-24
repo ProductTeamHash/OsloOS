@@ -21,5 +21,19 @@ namespace OsloOS.Home_And_Integrated_Apps
         {
 
         }
+
+        private void SwipeDownMenuButton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var pulldownexit = new MainMenu();
+            pulldownexit.Show();
+        }
+
+        private void SwipeDownMenuButton2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var pulldownexit = new MainMenu();
+            pulldownexit.Show();
+        }
     }
 }

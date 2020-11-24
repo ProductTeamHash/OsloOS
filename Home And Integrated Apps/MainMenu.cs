@@ -20,7 +20,9 @@ namespace OsloOS
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
-
+            //shows background layer to hide loading between apps
+            var background = new background();
+            background.Show();
         }
 
         private void SwipeDownMenuButton1_Click(object sender, EventArgs e)

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Home And Integrated Apps\background.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home And Integrated Apps\background.Designer.cs">
+      <DependentUpon>background.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home And Integrated Apps\MainMenu + PullDownMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Home And Integrated Apps\background.resx">
+      <DependentUpon>background.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home And Integrated Apps\MainMenu + PullDownMenu.resx">
       <DependentUpon>MainMenu + PullDownMenu.cs</DependentUpon>
     </EmbeddedResource>

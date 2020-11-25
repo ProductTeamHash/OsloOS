@@ -28,25 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SwipeDownMenuButton1 = new System.Windows.Forms.Button();
             this.SwipeDownMenuButton2 = new System.Windows.Forms.Button();
+            this.SwipeDownMenuButton1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // SwipeDownMenuButton1
-            // 
-            this.SwipeDownMenuButton1.BackColor = System.Drawing.Color.Transparent;
-            this.SwipeDownMenuButton1.Cursor = System.Windows.Forms.Cursors.PanSouth;
-            this.SwipeDownMenuButton1.FlatAppearance.BorderSize = 0;
-            this.SwipeDownMenuButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.SwipeDownMenuButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.SwipeDownMenuButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SwipeDownMenuButton1.ForeColor = System.Drawing.Color.Transparent;
-            this.SwipeDownMenuButton1.Location = new System.Drawing.Point(667, -1);
-            this.SwipeDownMenuButton1.Name = "SwipeDownMenuButton1";
-            this.SwipeDownMenuButton1.Size = new System.Drawing.Size(607, 28);
-            this.SwipeDownMenuButton1.TabIndex = 0;
-            this.SwipeDownMenuButton1.UseVisualStyleBackColor = false;
-            this.SwipeDownMenuButton1.Click += new System.EventHandler(this.SwipeDownMenuButton1_Click);
             // 
             // SwipeDownMenuButton2
             // 
@@ -63,6 +47,22 @@
             this.SwipeDownMenuButton2.TabIndex = 1;
             this.SwipeDownMenuButton2.UseVisualStyleBackColor = false;
             this.SwipeDownMenuButton2.Click += new System.EventHandler(this.SwipeDownMenuButton2_Click);
+            // 
+            // SwipeDownMenuButton1
+            // 
+            this.SwipeDownMenuButton1.BackColor = System.Drawing.Color.Transparent;
+            this.SwipeDownMenuButton1.Cursor = System.Windows.Forms.Cursors.PanSouth;
+            this.SwipeDownMenuButton1.FlatAppearance.BorderSize = 0;
+            this.SwipeDownMenuButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.SwipeDownMenuButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.SwipeDownMenuButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SwipeDownMenuButton1.ForeColor = System.Drawing.Color.Transparent;
+            this.SwipeDownMenuButton1.Location = new System.Drawing.Point(667, -1);
+            this.SwipeDownMenuButton1.Name = "SwipeDownMenuButton1";
+            this.SwipeDownMenuButton1.Size = new System.Drawing.Size(607, 28);
+            this.SwipeDownMenuButton1.TabIndex = 0;
+            this.SwipeDownMenuButton1.UseVisualStyleBackColor = false;
+            this.SwipeDownMenuButton1.Click += new System.EventHandler(this.SwipeDownMenuButton1_Click);
             // 
             // MainMenu
             // 
@@ -84,7 +84,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button SwipeDownMenuButton1;
         private System.Windows.Forms.Button SwipeDownMenuButton2;
+        private System.Windows.Forms.Button SwipeDownMenuButton1;
     }
 }

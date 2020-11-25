@@ -123,6 +123,56 @@ namespace OsloOS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PullDownOsloOS {
+            get {
+                object obj = ResourceManager.GetObject("PullDownOsloOS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PullDownOsloOS1 {
+            get {
+                object obj = ResourceManager.GetObject("PullDownOsloOS1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PullDownOsloOS2 {
+            get {
+                object obj = ResourceManager.GetObject("PullDownOsloOS2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PullDownOsloOS3 {
+            get {
+                object obj = ResourceManager.GetObject("PullDownOsloOS3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PullDownOsloOS4 {
+            get {
+                object obj = ResourceManager.GetObject("PullDownOsloOS4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wallpaperflare_com_wallpaper__4_ {
             get {
                 object obj = ResourceManager.GetObject("wallpaperflare.com_wallpaper (4)", resourceCulture);

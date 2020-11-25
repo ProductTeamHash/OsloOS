@@ -37,6 +37,7 @@
             this.SwipeDownMenuButton2.BackColor = System.Drawing.Color.Transparent;
             this.SwipeDownMenuButton2.Cursor = System.Windows.Forms.Cursors.PanSouth;
             this.SwipeDownMenuButton2.FlatAppearance.BorderSize = 0;
+            this.SwipeDownMenuButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.SwipeDownMenuButton2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.SwipeDownMenuButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.SwipeDownMenuButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -53,6 +54,7 @@
             this.SwipeDownMenuButton1.BackColor = System.Drawing.Color.Transparent;
             this.SwipeDownMenuButton1.Cursor = System.Windows.Forms.Cursors.PanSouth;
             this.SwipeDownMenuButton1.FlatAppearance.BorderSize = 0;
+            this.SwipeDownMenuButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.SwipeDownMenuButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.SwipeDownMenuButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.SwipeDownMenuButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -68,8 +70,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::OsloOS.Properties.Resources.OsloOS_MainMenu_DarkMode1;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.Controls.Add(this.SwipeDownMenuButton2);
             this.Controls.Add(this.SwipeDownMenuButton1);

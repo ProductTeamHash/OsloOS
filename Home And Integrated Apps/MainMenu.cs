@@ -27,15 +27,13 @@ namespace OsloOS
 
         private void SwipeDownMenuButton1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var pulldown1 = new MainMenu___PullDownMenu();
+            var pulldown1 = new PullDown();
             pulldown1.Show();
         }
 
         private void SwipeDownMenuButton2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var form2 = new MainMenu___PullDownMenu();
+            var form2 = new PullDown();
             form2.Show();
         }
     }

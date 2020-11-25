@@ -130,13 +130,28 @@
   <data name="wallpaperflare.com_wallpaper (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wallpaperflare.com_wallpaper (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anime_girl_PNG83 (2) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anime_girl_PNG83 (2) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="OsloOS MainMenu DarkMode1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OsloOS MainMenu DarkMode1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PullDownOsloOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PullDownOsloOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anime_girl_PNG83 (2) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anime_girl_PNG83 (2) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PullDownOsloOS3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PullDownOsloOS2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="OsloOS MainMenu + PullDown DarkMode" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OsloOS MainMenu + PullDown DarkMode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PullDownOsloOS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PullDownOsloOS1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PullDownOsloOS2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PullDownOsloOS.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PullDownOsloOS4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PullDownOsloOS3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

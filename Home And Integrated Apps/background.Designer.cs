@@ -29,7 +29,28 @@ namespace OsloOS.Home_And_Integrated_Apps
         /// </summary>
         private void InitializeComponent()
         {
+            this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
             this.SuspendLayout();
+            // 
+            // button_WOC1
+            // 
+            this.button_WOC1.BackColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.BorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.ButtonColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.FlatAppearance.BorderSize = 0;
+            this.button_WOC1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC1.ForeColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.Location = new System.Drawing.Point(662, -73);
+            this.button_WOC1.Name = "button_WOC1";
+            this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.OnHoverTextColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.Size = new System.Drawing.Size(617, 136);
+            this.button_WOC1.TabIndex = 0;
+            this.button_WOC1.TextColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.UseVisualStyleBackColor = false;
             // 
             // background
             // 
@@ -37,6 +58,7 @@ namespace OsloOS.Home_And_Integrated_Apps
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::OsloOS.Properties.Resources.OsloOS_MainMenu_DarkMode1;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.Controls.Add(this.button_WOC1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "background";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -46,5 +68,7 @@ namespace OsloOS.Home_And_Integrated_Apps
         }
 
         #endregion
+
+        private ePOSOne.btnProduct.Button_WOC button_WOC1;
     }
 }

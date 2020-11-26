@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,26 +23,27 @@ namespace OsloOS
             InitializeComponent();
         }
 
-        public Process Calculatoropen()
-        {
-            Process calc = Process.Start("calc.exe");
+        string[] getdesktop = Directory.GetFiles(@"%desktop%", "*.lnk");
 
-            return null;
-        }
         private void MainMenu_Load(object sender, EventArgs e)
         {
+           
+                
+        
+        
             //shows background layer to hide loading between apps
             var background = new background();
             background.Show();
+            {
+                Process calc = "(Process.Start(" + getdesktop + "));";
 
-            Process calc = (Process.Start("calc.exe"));
+                calc.WaitForInputIdle();
+                NativeMethods.SetParent(calc.MainWindowHandle, this.Handle);
 
-            calc.WaitForInputIdle();
-            NativeMethods.SetParent(calc.MainWindowHandle, this.Handle);
-
-            Icon ico = Icon.ExtractAssociatedIcon(calc.MainModule.FileName);
-            Bitmap bmp = ico.ToBitmap();
-            button_WOC1.BackgroundImage = bmp;
+                Icon ico = Icon.ExtractAssociatedIcon(calc.MainModule.FileName);
+                Bitmap bmp = ico.ToBitmap();
+                button_WOC1.BackgroundImage = bmp;
+            }
         }
 
         private void SwipeDownMenuButton1_Click(object sender, EventArgs e)

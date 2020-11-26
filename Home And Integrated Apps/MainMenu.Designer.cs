@@ -100,6 +100,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainMenu";
             this.Text = "MainMenu";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.MainMenu_Load);
             this.ResumeLayout(false);
 

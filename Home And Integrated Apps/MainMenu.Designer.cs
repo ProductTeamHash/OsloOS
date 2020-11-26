@@ -71,6 +71,8 @@
             // 
             this.button_WOC1.BorderColor = System.Drawing.Color.Silver;
             this.button_WOC1.ButtonColor = System.Drawing.Color.Red;
+            this.button_WOC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC1.ForeColor = System.Drawing.Color.DarkOrchid;
             this.button_WOC1.Location = new System.Drawing.Point(23, 389);
             this.button_WOC1.Name = "button_WOC1";
             this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.Gray;

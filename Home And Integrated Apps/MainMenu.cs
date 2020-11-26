@@ -28,7 +28,7 @@ namespace OsloOS
             var background = new background();
             background.Show();
 
-            Icon ico = Icon.ExtractAssociatedIcon(p.MainModule.FileName);
+            
         }
 
         private void SwipeDownMenuButton1_Click(object sender, EventArgs e)
@@ -45,11 +45,14 @@ namespace OsloOS
 
         private void button_WOC1_Click(object sender, EventArgs e)
         {
-            
+            Process calc = Process.Start("calc.exe");
+            calc.WaitForInputIdle();
+            NativeMethods.SetParent(calc.MainWindowHandle, this.Handle);
 
-            Process p = Process.Start("calc.exe");
-            p.WaitForInputIdle();
-            NativeMethods.SetParent(p.MainWindowHandle, this.Handle);
+            Icon ico = Icon.ExtractAssociatedIcon(calc.MainModule.FileName);
+            Bitmap bmp = ico.ToBitmap();
+            button_WOC1.BackgroundImage = bmp;
+
         }
     }
 }

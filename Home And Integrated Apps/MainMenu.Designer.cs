@@ -69,20 +69,22 @@
             // 
             // button_WOC1
             // 
-            this.button_WOC1.BorderColor = System.Drawing.Color.Silver;
-            this.button_WOC1.ButtonColor = System.Drawing.Color.Red;
+            this.button_WOC1.BackColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button_WOC1.BorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.ButtonColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.FlatAppearance.BorderSize = 0;
             this.button_WOC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC1.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.button_WOC1.Location = new System.Drawing.Point(23, 389);
+            this.button_WOC1.ForeColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.Location = new System.Drawing.Point(26, 392);
             this.button_WOC1.Name = "button_WOC1";
-            this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.button_WOC1.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.button_WOC1.Size = new System.Drawing.Size(124, 125);
+            this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.OnHoverTextColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.Size = new System.Drawing.Size(127, 125);
             this.button_WOC1.TabIndex = 2;
-            this.button_WOC1.Text = "button_WOC1";
-            this.button_WOC1.TextColor = System.Drawing.Color.White;
-            this.button_WOC1.UseVisualStyleBackColor = true;
+            this.button_WOC1.TextColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.UseVisualStyleBackColor = false;
             this.button_WOC1.Click += new System.EventHandler(this.button_WOC1_Click);
             // 
             // MainMenu

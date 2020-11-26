@@ -46,12 +46,14 @@ namespace OsloOS
 
         private void SwipeDownMenuButton1_Click(object sender, EventArgs e)
         {
+            ActiveForm.TopMost = false;
             var pulldown1 = new PullDown();
             pulldown1.Show();
         }
 
         private void SwipeDownMenuButton2_Click(object sender, EventArgs e)
         {
+            ActiveForm.TopMost = false;
             var form2 = new PullDown();
             form2.Show();
         }
@@ -60,8 +62,6 @@ namespace OsloOS
         {
             ActiveForm.TopMost = false;
             Process calc = Process.Start("calc.exe");
-
-
         }
     }
 }

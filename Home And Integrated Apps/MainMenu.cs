@@ -23,7 +23,7 @@ namespace OsloOS
             InitializeComponent();
         }
 
-        string[] getdesktop = Directory.GetFiles(@"%desktop%", "*.lnk");
+        //string[] getdesktop = Directory.GetFiles(@"%desktop%", "*.lnk");
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
@@ -35,7 +35,7 @@ namespace OsloOS
             var background = new background();
             background.Show();
             {
-                var getdesktopcoverted = getdesktop.Select(Int32.Parse).ToList();
+                //var getdesktopcoverted = getdesktop.Select(Int32.Parse).ToList();
 
                 //Process calc = Process.Start(getdesktopcoverted);
                 //calc.WaitForInputIdle();

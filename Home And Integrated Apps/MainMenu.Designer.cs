@@ -98,7 +98,6 @@
             this.Controls.Add(this.button_WOC1);
             this.Controls.Add(this.SwipeDownMenuButton2);
             this.Controls.Add(this.SwipeDownMenuButton1);
-            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainMenu";
             this.Text = "MainMenu";

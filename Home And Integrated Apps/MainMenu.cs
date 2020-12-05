@@ -35,14 +35,15 @@ namespace OsloOS
             var background = new background();
             background.Show();
             {
-                Process calc = "(Process.Start(" + getdesktop + "));";
+                var getdesktopcoverted = getdesktop.Select(Int32.Parse).ToList();
 
-                calc.WaitForInputIdle();
-                NativeMethods.SetParent(calc.MainWindowHandle, this.Handle);
+                //Process calc = Process.Start(getdesktopcoverted);
+                //calc.WaitForInputIdle();
+                //NativeMethods.SetParent(calc.MainWindowHandle, this.Handle);
 
-                Icon ico = Icon.ExtractAssociatedIcon(calc.MainModule.FileName);
-                Bitmap bmp = ico.ToBitmap();
-                button_WOC1.BackgroundImage = bmp;
+                //Icon ico = Icon.ExtractAssociatedIcon(calc.MainModule.FileName);
+                //Bitmap bmp = ico.ToBitmap();
+                //button_WOC1.BackgroundImage = bmp;
             }
         }
 

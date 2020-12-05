@@ -30,7 +30,6 @@
         {
             this.SwipeDownMenuButton2 = new System.Windows.Forms.Button();
             this.SwipeDownMenuButton1 = new System.Windows.Forms.Button();
-            this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
             this.SuspendLayout();
             // 
             // SwipeDownMenuButton2
@@ -67,26 +66,6 @@
             this.SwipeDownMenuButton1.UseVisualStyleBackColor = false;
             this.SwipeDownMenuButton1.Click += new System.EventHandler(this.SwipeDownMenuButton1_Click);
             // 
-            // button_WOC1
-            // 
-            this.button_WOC1.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button_WOC1.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC1.ButtonColor = System.Drawing.Color.Transparent;
-            this.button_WOC1.FlatAppearance.BorderSize = 0;
-            this.button_WOC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC1.ForeColor = System.Drawing.Color.Transparent;
-            this.button_WOC1.Location = new System.Drawing.Point(26, 392);
-            this.button_WOC1.Name = "button_WOC1";
-            this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.Transparent;
-            this.button_WOC1.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC1.Size = new System.Drawing.Size(127, 125);
-            this.button_WOC1.TabIndex = 2;
-            this.button_WOC1.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC1.UseVisualStyleBackColor = false;
-            this.button_WOC1.Click += new System.EventHandler(this.button_WOC1_Click);
-            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -95,7 +74,6 @@
             this.BackgroundImage = global::OsloOS.Properties.Resources.OsloOS_MainMenu_DarkMode1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
-            this.Controls.Add(this.button_WOC1);
             this.Controls.Add(this.SwipeDownMenuButton2);
             this.Controls.Add(this.SwipeDownMenuButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -111,6 +89,5 @@
 
         private System.Windows.Forms.Button SwipeDownMenuButton2;
         private System.Windows.Forms.Button SwipeDownMenuButton1;
-        private ePOSOne.btnProduct.Button_WOC button_WOC1;
     }
 }

@@ -61,10 +61,44 @@ namespace OsloOS
             form2.Show();
         }
 
-        public void button_WOC1_Click(object sender, EventArgs e)
+        private void button_WOC3_Click(object sender, EventArgs e)
         {
-            ActiveForm.TopMost = false;
-            Process calc = Process.Start("calc.exe");
+            
+        }
+
+        private void button_WOC5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

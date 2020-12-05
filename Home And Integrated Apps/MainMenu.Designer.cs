@@ -79,7 +79,7 @@
             // 
             this.button_WOC2.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC2.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.ButtonColor = System.Drawing.Color.Red;
+            this.button_WOC2.ButtonColor = System.Drawing.Color.Crimson;
             this.button_WOC2.FlatAppearance.BorderSize = 0;
             this.button_WOC2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button_WOC2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -100,7 +100,7 @@
             // 
             this.button_WOC6.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC6.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC6.ButtonColor = System.Drawing.Color.Red;
+            this.button_WOC6.ButtonColor = System.Drawing.Color.Crimson;
             this.button_WOC6.FlatAppearance.BorderSize = 0;
             this.button_WOC6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button_WOC6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -121,7 +121,7 @@
             // 
             this.button_WOC7.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC7.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC7.ButtonColor = System.Drawing.Color.Red;
+            this.button_WOC7.ButtonColor = System.Drawing.Color.Crimson;
             this.button_WOC7.FlatAppearance.BorderSize = 0;
             this.button_WOC7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button_WOC7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -142,7 +142,7 @@
             // 
             this.button_WOC8.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC8.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC8.ButtonColor = System.Drawing.Color.Red;
+            this.button_WOC8.ButtonColor = System.Drawing.Color.Crimson;
             this.button_WOC8.FlatAppearance.BorderSize = 0;
             this.button_WOC8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button_WOC8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -152,7 +152,7 @@
             this.button_WOC8.OnHoverBorderColor = System.Drawing.Color.Red;
             this.button_WOC8.OnHoverButtonColor = System.Drawing.Color.Red;
             this.button_WOC8.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC8.Size = new System.Drawing.Size(159, 160);
+            this.button_WOC8.Size = new System.Drawing.Size(161, 160);
             this.button_WOC8.TabIndex = 8;
             this.button_WOC8.Text = "button_WOC8";
             this.button_WOC8.TextColor = System.Drawing.Color.Transparent;
@@ -163,7 +163,7 @@
             // 
             this.button_WOC9.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC9.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC9.ButtonColor = System.Drawing.Color.Red;
+            this.button_WOC9.ButtonColor = System.Drawing.Color.Crimson;
             this.button_WOC9.FlatAppearance.BorderSize = 0;
             this.button_WOC9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button_WOC9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -184,7 +184,7 @@
             // 
             this.button_WOC4.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC4.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC4.ButtonColor = System.Drawing.Color.Red;
+            this.button_WOC4.ButtonColor = System.Drawing.Color.Crimson;
             this.button_WOC4.FlatAppearance.BorderSize = 0;
             this.button_WOC4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button_WOC4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -205,7 +205,7 @@
             // 
             this.button_WOC5.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC5.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC5.ButtonColor = System.Drawing.Color.Red;
+            this.button_WOC5.ButtonColor = System.Drawing.Color.Crimson;
             this.button_WOC5.FlatAppearance.BorderSize = 0;
             this.button_WOC5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button_WOC5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -226,7 +226,7 @@
             // 
             this.button_WOC3.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC3.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC3.ButtonColor = System.Drawing.Color.Red;
+            this.button_WOC3.ButtonColor = System.Drawing.Color.Crimson;
             this.button_WOC3.FlatAppearance.BorderSize = 0;
             this.button_WOC3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button_WOC3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;

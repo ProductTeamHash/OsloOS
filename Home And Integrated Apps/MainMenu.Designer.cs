@@ -39,6 +39,8 @@
             this.button_WOC5 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC3 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC10 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC11 = new ePOSOne.btnProduct.Button_WOC();
             this.SuspendLayout();
             // 
             // SwipeDownMenuButton2
@@ -99,6 +101,8 @@
             // button_WOC6
             // 
             this.button_WOC6.BackColor = System.Drawing.Color.Transparent;
+            this.button_WOC6.BackgroundImage = global::OsloOS.Properties.Resources.osloswift_logo;
+            this.button_WOC6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button_WOC6.BorderColor = System.Drawing.Color.Transparent;
             this.button_WOC6.ButtonColor = System.Drawing.Color.Crimson;
             this.button_WOC6.FlatAppearance.BorderSize = 0;
@@ -258,6 +262,46 @@
             this.button_WOC1.TextColor = System.Drawing.Color.White;
             this.button_WOC1.UseVisualStyleBackColor = true;
             // 
+            // button_WOC10
+            // 
+            this.button_WOC10.BackColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.BorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.ButtonColor = System.Drawing.Color.Crimson;
+            this.button_WOC10.FlatAppearance.BorderSize = 0;
+            this.button_WOC10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC10.Location = new System.Drawing.Point(-101, 956);
+            this.button_WOC10.Name = "button_WOC10";
+            this.button_WOC10.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button_WOC10.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button_WOC10.OnHoverTextColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.Size = new System.Drawing.Size(338, 216);
+            this.button_WOC10.TabIndex = 12;
+            this.button_WOC10.Text = "button_WOC10";
+            this.button_WOC10.TextColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.UseVisualStyleBackColor = false;
+            // 
+            // button_WOC11
+            // 
+            this.button_WOC11.BackColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.BorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.ButtonColor = System.Drawing.Color.Crimson;
+            this.button_WOC11.FlatAppearance.BorderSize = 0;
+            this.button_WOC11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC11.Location = new System.Drawing.Point(1712, 956);
+            this.button_WOC11.Name = "button_WOC11";
+            this.button_WOC11.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button_WOC11.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button_WOC11.OnHoverTextColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.Size = new System.Drawing.Size(338, 216);
+            this.button_WOC11.TabIndex = 13;
+            this.button_WOC11.Text = "button_WOC11";
+            this.button_WOC11.TextColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.UseVisualStyleBackColor = false;
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -266,6 +310,8 @@
             this.BackgroundImage = global::OsloOS.Properties.Resources.OsloOS_MainMenu_DarkMode1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.Controls.Add(this.button_WOC11);
+            this.Controls.Add(this.button_WOC10);
             this.Controls.Add(this.button_WOC2);
             this.Controls.Add(this.button_WOC6);
             this.Controls.Add(this.button_WOC7);
@@ -299,5 +345,7 @@
         private ePOSOne.btnProduct.Button_WOC button_WOC8;
         private ePOSOne.btnProduct.Button_WOC button_WOC9;
         private ePOSOne.btnProduct.Button_WOC button_WOC2;
+        private ePOSOne.btnProduct.Button_WOC button_WOC10;
+        private ePOSOne.btnProduct.Button_WOC button_WOC11;
     }
 }

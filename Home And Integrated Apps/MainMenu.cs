@@ -9,6 +9,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Xamarin.Essentials;
@@ -88,7 +89,7 @@ namespace OsloOS
 
         private void button_WOC7_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button_WOC6_Click(object sender, EventArgs e)

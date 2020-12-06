@@ -73,6 +73,16 @@ namespace OsloOS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Eiq42cqXkAEEodu {
+            get {
+                object obj = ResourceManager.GetObject("Eiq42cqXkAEEodu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gradiant_for_olsoos {
             get {
                 object obj = ResourceManager.GetObject("gradiant for olsoos", resourceCulture);

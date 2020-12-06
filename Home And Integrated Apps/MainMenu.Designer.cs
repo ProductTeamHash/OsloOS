@@ -30,6 +30,8 @@
         {
             this.SwipeDownMenuButton2 = new System.Windows.Forms.Button();
             this.SwipeDownMenuButton1 = new System.Windows.Forms.Button();
+            this.button_WOC11 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC10 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC2 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC6 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC7 = new ePOSOne.btnProduct.Button_WOC();
@@ -39,8 +41,6 @@
             this.button_WOC5 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC3 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC10 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC11 = new ePOSOne.btnProduct.Button_WOC();
             this.SuspendLayout();
             // 
             // SwipeDownMenuButton2
@@ -76,6 +76,46 @@
             this.SwipeDownMenuButton1.TabIndex = 0;
             this.SwipeDownMenuButton1.UseVisualStyleBackColor = false;
             this.SwipeDownMenuButton1.Click += new System.EventHandler(this.SwipeDownMenuButton1_Click);
+            // 
+            // button_WOC11
+            // 
+            this.button_WOC11.BackColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.BorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.ButtonColor = System.Drawing.Color.Crimson;
+            this.button_WOC11.FlatAppearance.BorderSize = 0;
+            this.button_WOC11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC11.Location = new System.Drawing.Point(1712, 956);
+            this.button_WOC11.Name = "button_WOC11";
+            this.button_WOC11.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button_WOC11.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button_WOC11.OnHoverTextColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.Size = new System.Drawing.Size(338, 216);
+            this.button_WOC11.TabIndex = 13;
+            this.button_WOC11.Text = "button_WOC11";
+            this.button_WOC11.TextColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.UseVisualStyleBackColor = false;
+            // 
+            // button_WOC10
+            // 
+            this.button_WOC10.BackColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.BorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.ButtonColor = System.Drawing.Color.Crimson;
+            this.button_WOC10.FlatAppearance.BorderSize = 0;
+            this.button_WOC10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC10.Location = new System.Drawing.Point(-101, 956);
+            this.button_WOC10.Name = "button_WOC10";
+            this.button_WOC10.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button_WOC10.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button_WOC10.OnHoverTextColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.Size = new System.Drawing.Size(338, 216);
+            this.button_WOC10.TabIndex = 12;
+            this.button_WOC10.Text = "button_WOC10";
+            this.button_WOC10.TextColor = System.Drawing.Color.Transparent;
+            this.button_WOC10.UseVisualStyleBackColor = false;
             // 
             // button_WOC2
             // 
@@ -261,46 +301,6 @@
             this.button_WOC1.Text = "button_WOC1";
             this.button_WOC1.TextColor = System.Drawing.Color.White;
             this.button_WOC1.UseVisualStyleBackColor = true;
-            // 
-            // button_WOC10
-            // 
-            this.button_WOC10.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC10.FlatAppearance.BorderSize = 0;
-            this.button_WOC10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC10.Location = new System.Drawing.Point(-101, 956);
-            this.button_WOC10.Name = "button_WOC10";
-            this.button_WOC10.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC10.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC10.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.Size = new System.Drawing.Size(338, 216);
-            this.button_WOC10.TabIndex = 12;
-            this.button_WOC10.Text = "button_WOC10";
-            this.button_WOC10.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.UseVisualStyleBackColor = false;
-            // 
-            // button_WOC11
-            // 
-            this.button_WOC11.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC11.FlatAppearance.BorderSize = 0;
-            this.button_WOC11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC11.Location = new System.Drawing.Point(1712, 956);
-            this.button_WOC11.Name = "button_WOC11";
-            this.button_WOC11.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC11.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC11.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.Size = new System.Drawing.Size(338, 216);
-            this.button_WOC11.TabIndex = 13;
-            this.button_WOC11.Text = "button_WOC11";
-            this.button_WOC11.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.UseVisualStyleBackColor = false;
             // 
             // MainMenu
             // 

@@ -103,6 +103,16 @@ namespace OsloOS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_android_os_100px_2 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_android_os_100px_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap OsloOS_Logo {
             get {
                 object obj = ResourceManager.GetObject("OsloOS Logo", resourceCulture);

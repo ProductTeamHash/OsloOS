@@ -86,7 +86,7 @@
             this.button_WOC11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button_WOC11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button_WOC11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC11.Location = new System.Drawing.Point(1712, 956);
+            this.button_WOC11.Location = new System.Drawing.Point(1690, 956);
             this.button_WOC11.Name = "button_WOC11";
             this.button_WOC11.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.button_WOC11.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
@@ -106,7 +106,7 @@
             this.button_WOC10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button_WOC10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button_WOC10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC10.Location = new System.Drawing.Point(-101, 956);
+            this.button_WOC10.Location = new System.Drawing.Point(-89, 956);
             this.button_WOC10.Name = "button_WOC10";
             this.button_WOC10.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.button_WOC10.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));

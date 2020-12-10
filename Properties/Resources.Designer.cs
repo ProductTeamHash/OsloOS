@@ -93,6 +93,16 @@ namespace OsloOS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_android_os_100px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_android_os_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap OsloOS_Logo {
             get {
                 object obj = ResourceManager.GetObject("OsloOS Logo", resourceCulture);
@@ -196,6 +206,16 @@ namespace OsloOS.Properties {
         internal static System.Drawing.Bitmap PullDownOsloOS4 {
             get {
                 object obj = ResourceManager.GetObject("PullDownOsloOS4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

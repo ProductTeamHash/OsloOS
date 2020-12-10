@@ -30,17 +30,15 @@
         {
             this.SwipeDownMenuButton2 = new System.Windows.Forms.Button();
             this.SwipeDownMenuButton1 = new System.Windows.Forms.Button();
-            this.button_WOC11 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC10 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC2 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC6 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC7 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC8 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC9 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC4 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC5 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC3 = new ePOSOne.btnProduct.Button_WOC();
             this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
+            this.TaskBarButton1 = new System.Windows.Forms.Button();
+            this.TaskBarButton2 = new System.Windows.Forms.Button();
+            this.TaskBarButton3 = new System.Windows.Forms.Button();
+            this.TaskBarButton6 = new System.Windows.Forms.Button();
+            this.TaskBarButton5 = new System.Windows.Forms.Button();
+            this.TaskBarButton4 = new System.Windows.Forms.Button();
+            this.TaskBarButton8 = new System.Windows.Forms.Button();
+            this.TaskBarButton7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // SwipeDownMenuButton2
@@ -77,216 +75,6 @@
             this.SwipeDownMenuButton1.UseVisualStyleBackColor = false;
             this.SwipeDownMenuButton1.Click += new System.EventHandler(this.SwipeDownMenuButton1_Click);
             // 
-            // button_WOC11
-            // 
-            this.button_WOC11.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC11.FlatAppearance.BorderSize = 0;
-            this.button_WOC11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC11.Location = new System.Drawing.Point(1690, 956);
-            this.button_WOC11.Name = "button_WOC11";
-            this.button_WOC11.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC11.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC11.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.Size = new System.Drawing.Size(338, 216);
-            this.button_WOC11.TabIndex = 13;
-            this.button_WOC11.Text = "button_WOC11";
-            this.button_WOC11.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.UseVisualStyleBackColor = false;
-            // 
-            // button_WOC10
-            // 
-            this.button_WOC10.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC10.FlatAppearance.BorderSize = 0;
-            this.button_WOC10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC10.Location = new System.Drawing.Point(-89, 956);
-            this.button_WOC10.Name = "button_WOC10";
-            this.button_WOC10.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC10.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC10.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.Size = new System.Drawing.Size(338, 216);
-            this.button_WOC10.TabIndex = 12;
-            this.button_WOC10.Text = "button_WOC10";
-            this.button_WOC10.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC10.UseVisualStyleBackColor = false;
-            // 
-            // button_WOC2
-            // 
-            this.button_WOC2.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC2.FlatAppearance.BorderSize = 0;
-            this.button_WOC2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC2.Location = new System.Drawing.Point(1525, 923);
-            this.button_WOC2.Name = "button_WOC2";
-            this.button_WOC2.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC2.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC2.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.Size = new System.Drawing.Size(159, 160);
-            this.button_WOC2.TabIndex = 11;
-            this.button_WOC2.Text = "button_WOC2";
-            this.button_WOC2.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.UseVisualStyleBackColor = false;
-            this.button_WOC2.Click += new System.EventHandler(this.button_WOC2_Click_1);
-            // 
-            // button_WOC6
-            // 
-            this.button_WOC6.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC6.BackgroundImage = global::OsloOS.Properties.Resources.osloswift_logo;
-            this.button_WOC6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button_WOC6.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC6.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC6.FlatAppearance.BorderSize = 0;
-            this.button_WOC6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC6.Location = new System.Drawing.Point(255, 923);
-            this.button_WOC6.Name = "button_WOC6";
-            this.button_WOC6.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC6.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC6.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC6.Size = new System.Drawing.Size(159, 160);
-            this.button_WOC6.TabIndex = 10;
-            this.button_WOC6.Text = "button_WOC6";
-            this.button_WOC6.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC6.UseVisualStyleBackColor = false;
-            this.button_WOC6.Click += new System.EventHandler(this.button_WOC6_Click);
-            // 
-            // button_WOC7
-            // 
-            this.button_WOC7.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC7.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC7.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC7.FlatAppearance.BorderSize = 0;
-            this.button_WOC7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC7.Location = new System.Drawing.Point(434, 923);
-            this.button_WOC7.Name = "button_WOC7";
-            this.button_WOC7.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC7.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC7.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC7.Size = new System.Drawing.Size(159, 160);
-            this.button_WOC7.TabIndex = 9;
-            this.button_WOC7.Text = "button_WOC7";
-            this.button_WOC7.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC7.UseVisualStyleBackColor = false;
-            this.button_WOC7.Click += new System.EventHandler(this.button_WOC7_Click);
-            // 
-            // button_WOC8
-            // 
-            this.button_WOC8.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC8.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC8.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC8.FlatAppearance.BorderSize = 0;
-            this.button_WOC8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC8.Location = new System.Drawing.Point(616, 923);
-            this.button_WOC8.Name = "button_WOC8";
-            this.button_WOC8.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC8.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC8.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC8.Size = new System.Drawing.Size(161, 160);
-            this.button_WOC8.TabIndex = 8;
-            this.button_WOC8.Text = "button_WOC8";
-            this.button_WOC8.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC8.UseVisualStyleBackColor = false;
-            this.button_WOC8.Click += new System.EventHandler(this.button_WOC8_Click);
-            // 
-            // button_WOC9
-            // 
-            this.button_WOC9.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC9.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC9.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC9.FlatAppearance.BorderSize = 0;
-            this.button_WOC9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC9.Location = new System.Drawing.Point(795, 923);
-            this.button_WOC9.Name = "button_WOC9";
-            this.button_WOC9.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC9.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC9.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC9.Size = new System.Drawing.Size(159, 160);
-            this.button_WOC9.TabIndex = 7;
-            this.button_WOC9.Text = "button_WOC9";
-            this.button_WOC9.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC9.UseVisualStyleBackColor = false;
-            this.button_WOC9.Click += new System.EventHandler(this.button_WOC9_Click);
-            // 
-            // button_WOC4
-            // 
-            this.button_WOC4.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC4.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC4.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC4.FlatAppearance.BorderSize = 0;
-            this.button_WOC4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC4.Location = new System.Drawing.Point(974, 923);
-            this.button_WOC4.Name = "button_WOC4";
-            this.button_WOC4.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC4.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC4.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC4.Size = new System.Drawing.Size(159, 160);
-            this.button_WOC4.TabIndex = 6;
-            this.button_WOC4.Text = "button_WOC4";
-            this.button_WOC4.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC4.UseVisualStyleBackColor = false;
-            this.button_WOC4.Click += new System.EventHandler(this.button_WOC4_Click);
-            // 
-            // button_WOC5
-            // 
-            this.button_WOC5.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC5.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC5.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC5.FlatAppearance.BorderSize = 0;
-            this.button_WOC5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC5.Location = new System.Drawing.Point(1153, 923);
-            this.button_WOC5.Name = "button_WOC5";
-            this.button_WOC5.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC5.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC5.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC5.Size = new System.Drawing.Size(159, 160);
-            this.button_WOC5.TabIndex = 5;
-            this.button_WOC5.Text = "button_WOC5";
-            this.button_WOC5.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC5.UseVisualStyleBackColor = false;
-            this.button_WOC5.Click += new System.EventHandler(this.button_WOC5_Click);
-            // 
-            // button_WOC3
-            // 
-            this.button_WOC3.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC3.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC3.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC3.FlatAppearance.BorderSize = 0;
-            this.button_WOC3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC3.Location = new System.Drawing.Point(1335, 923);
-            this.button_WOC3.Name = "button_WOC3";
-            this.button_WOC3.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC3.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button_WOC3.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC3.Size = new System.Drawing.Size(159, 160);
-            this.button_WOC3.TabIndex = 4;
-            this.button_WOC3.Text = "button_WOC3";
-            this.button_WOC3.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC3.UseVisualStyleBackColor = false;
-            this.button_WOC3.Click += new System.EventHandler(this.button_WOC3_Click);
-            // 
             // button_WOC1
             // 
             this.button_WOC1.BorderColor = System.Drawing.Color.Silver;
@@ -302,24 +90,127 @@
             this.button_WOC1.TextColor = System.Drawing.Color.White;
             this.button_WOC1.UseVisualStyleBackColor = true;
             // 
+            // TaskBarButton1
+            // 
+            this.TaskBarButton1.BackColor = System.Drawing.Color.Transparent;
+            this.TaskBarButton1.BackgroundImage = global::OsloOS.Properties.Resources.icons8_android_os_100px;
+            this.TaskBarButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TaskBarButton1.FlatAppearance.BorderSize = 0;
+            this.TaskBarButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaskBarButton1.Location = new System.Drawing.Point(256, 925);
+            this.TaskBarButton1.Name = "TaskBarButton1";
+            this.TaskBarButton1.Size = new System.Drawing.Size(158, 159);
+            this.TaskBarButton1.TabIndex = 3;
+            this.TaskBarButton1.UseVisualStyleBackColor = false;
+            this.TaskBarButton1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // TaskBarButton2
+            // 
+            this.TaskBarButton2.BackColor = System.Drawing.Color.Transparent;
+            this.TaskBarButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TaskBarButton2.FlatAppearance.BorderSize = 0;
+            this.TaskBarButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaskBarButton2.Location = new System.Drawing.Point(435, 925);
+            this.TaskBarButton2.Name = "TaskBarButton2";
+            this.TaskBarButton2.Size = new System.Drawing.Size(158, 159);
+            this.TaskBarButton2.TabIndex = 4;
+            this.TaskBarButton2.UseVisualStyleBackColor = false;
+            this.TaskBarButton2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // TaskBarButton3
+            // 
+            this.TaskBarButton3.BackColor = System.Drawing.Color.Transparent;
+            this.TaskBarButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TaskBarButton3.FlatAppearance.BorderSize = 0;
+            this.TaskBarButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaskBarButton3.Location = new System.Drawing.Point(619, 925);
+            this.TaskBarButton3.Name = "TaskBarButton3";
+            this.TaskBarButton3.Size = new System.Drawing.Size(157, 159);
+            this.TaskBarButton3.TabIndex = 5;
+            this.TaskBarButton3.UseVisualStyleBackColor = false;
+            this.TaskBarButton3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // TaskBarButton6
+            // 
+            this.TaskBarButton6.BackColor = System.Drawing.Color.Transparent;
+            this.TaskBarButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TaskBarButton6.FlatAppearance.BorderSize = 0;
+            this.TaskBarButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaskBarButton6.Location = new System.Drawing.Point(1155, 925);
+            this.TaskBarButton6.Name = "TaskBarButton6";
+            this.TaskBarButton6.Size = new System.Drawing.Size(156, 159);
+            this.TaskBarButton6.TabIndex = 8;
+            this.TaskBarButton6.UseVisualStyleBackColor = false;
+            this.TaskBarButton6.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // TaskBarButton5
+            // 
+            this.TaskBarButton5.BackColor = System.Drawing.Color.Transparent;
+            this.TaskBarButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TaskBarButton5.FlatAppearance.BorderSize = 0;
+            this.TaskBarButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaskBarButton5.Location = new System.Drawing.Point(976, 925);
+            this.TaskBarButton5.Name = "TaskBarButton5";
+            this.TaskBarButton5.Size = new System.Drawing.Size(158, 159);
+            this.TaskBarButton5.TabIndex = 7;
+            this.TaskBarButton5.UseVisualStyleBackColor = false;
+            this.TaskBarButton5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // TaskBarButton4
+            // 
+            this.TaskBarButton4.BackColor = System.Drawing.Color.Transparent;
+            this.TaskBarButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TaskBarButton4.FlatAppearance.BorderSize = 0;
+            this.TaskBarButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaskBarButton4.Location = new System.Drawing.Point(797, 925);
+            this.TaskBarButton4.Name = "TaskBarButton4";
+            this.TaskBarButton4.Size = new System.Drawing.Size(158, 159);
+            this.TaskBarButton4.TabIndex = 6;
+            this.TaskBarButton4.UseVisualStyleBackColor = false;
+            this.TaskBarButton4.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // TaskBarButton8
+            // 
+            this.TaskBarButton8.BackColor = System.Drawing.Color.Transparent;
+            this.TaskBarButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TaskBarButton8.FlatAppearance.BorderSize = 0;
+            this.TaskBarButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaskBarButton8.Location = new System.Drawing.Point(1528, 925);
+            this.TaskBarButton8.Name = "TaskBarButton8";
+            this.TaskBarButton8.Size = new System.Drawing.Size(156, 159);
+            this.TaskBarButton8.TabIndex = 10;
+            this.TaskBarButton8.UseVisualStyleBackColor = false;
+            this.TaskBarButton8.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // TaskBarButton7
+            // 
+            this.TaskBarButton7.BackColor = System.Drawing.Color.Transparent;
+            this.TaskBarButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TaskBarButton7.FlatAppearance.BorderSize = 0;
+            this.TaskBarButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaskBarButton7.Location = new System.Drawing.Point(1337, 925);
+            this.TaskBarButton7.Name = "TaskBarButton7";
+            this.TaskBarButton7.Size = new System.Drawing.Size(157, 159);
+            this.TaskBarButton7.TabIndex = 9;
+            this.TaskBarButton7.UseVisualStyleBackColor = false;
+            this.TaskBarButton7.Click += new System.EventHandler(this.button8_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::OsloOS.Properties.Resources.OsloOS_MainMenu_DarkMode1;
+            this.BackgroundImage = global::OsloOS.Properties.Resources.Screenshot__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
-            this.Controls.Add(this.button_WOC11);
-            this.Controls.Add(this.button_WOC10);
-            this.Controls.Add(this.button_WOC2);
-            this.Controls.Add(this.button_WOC6);
-            this.Controls.Add(this.button_WOC7);
-            this.Controls.Add(this.button_WOC8);
-            this.Controls.Add(this.button_WOC9);
-            this.Controls.Add(this.button_WOC4);
-            this.Controls.Add(this.button_WOC5);
-            this.Controls.Add(this.button_WOC3);
+            this.Controls.Add(this.TaskBarButton8);
+            this.Controls.Add(this.TaskBarButton7);
+            this.Controls.Add(this.TaskBarButton6);
+            this.Controls.Add(this.TaskBarButton5);
+            this.Controls.Add(this.TaskBarButton4);
+            this.Controls.Add(this.TaskBarButton3);
+            this.Controls.Add(this.TaskBarButton2);
+            this.Controls.Add(this.TaskBarButton1);
             this.Controls.Add(this.button_WOC1);
             this.Controls.Add(this.SwipeDownMenuButton2);
             this.Controls.Add(this.SwipeDownMenuButton1);
@@ -337,15 +228,13 @@
         private System.Windows.Forms.Button SwipeDownMenuButton2;
         private System.Windows.Forms.Button SwipeDownMenuButton1;
         private ePOSOne.btnProduct.Button_WOC button_WOC1;
-        private ePOSOne.btnProduct.Button_WOC button_WOC3;
-        private ePOSOne.btnProduct.Button_WOC button_WOC4;
-        private ePOSOne.btnProduct.Button_WOC button_WOC5;
-        private ePOSOne.btnProduct.Button_WOC button_WOC6;
-        private ePOSOne.btnProduct.Button_WOC button_WOC7;
-        private ePOSOne.btnProduct.Button_WOC button_WOC8;
-        private ePOSOne.btnProduct.Button_WOC button_WOC9;
-        private ePOSOne.btnProduct.Button_WOC button_WOC2;
-        private ePOSOne.btnProduct.Button_WOC button_WOC10;
-        private ePOSOne.btnProduct.Button_WOC button_WOC11;
+        private System.Windows.Forms.Button TaskBarButton1;
+        private System.Windows.Forms.Button TaskBarButton2;
+        private System.Windows.Forms.Button TaskBarButton3;
+        private System.Windows.Forms.Button TaskBarButton6;
+        private System.Windows.Forms.Button TaskBarButton5;
+        private System.Windows.Forms.Button TaskBarButton4;
+        private System.Windows.Forms.Button TaskBarButton8;
+        private System.Windows.Forms.Button TaskBarButton7;
     }
 }

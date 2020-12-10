@@ -274,6 +274,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="OsloOS Logo.ico" />
+    <None Include="Resources\icons8_android_os_100px.png" />
+    <None Include="Resources\Screenshot %281%29.png" />
     <None Include="Resources\Eiq42cqXkAEEodu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

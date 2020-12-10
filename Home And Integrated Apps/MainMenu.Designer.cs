@@ -335,7 +335,6 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox1.Enabled = false;
             this.pictureBox1.Location = new System.Drawing.Point(1520, 946);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 111);
@@ -345,7 +344,6 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox2.Enabled = false;
             this.pictureBox2.Location = new System.Drawing.Point(1347, 946);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 111);
@@ -355,7 +353,6 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox3.Enabled = false;
             this.pictureBox3.Location = new System.Drawing.Point(1174, 946);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 111);
@@ -365,7 +362,6 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox4.Enabled = false;
             this.pictureBox4.Location = new System.Drawing.Point(1001, 946);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 111);
@@ -375,7 +371,6 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox5.Enabled = false;
             this.pictureBox5.Location = new System.Drawing.Point(830, 946);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 111);
@@ -385,7 +380,6 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox6.Enabled = false;
             this.pictureBox6.Location = new System.Drawing.Point(655, 946);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(100, 111);
@@ -395,7 +389,6 @@
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox7.Enabled = false;
             this.pictureBox7.Location = new System.Drawing.Point(482, 946);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(100, 111);
@@ -405,7 +398,6 @@
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox8.Enabled = false;
             this.pictureBox8.Location = new System.Drawing.Point(310, 946);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(100, 111);
@@ -415,7 +407,6 @@
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox9.Enabled = false;
             this.pictureBox9.Location = new System.Drawing.Point(58, 970);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(133, 111);
@@ -425,7 +416,6 @@
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox10.Enabled = false;
             this.pictureBox10.Location = new System.Drawing.Point(1729, 970);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(133, 111);

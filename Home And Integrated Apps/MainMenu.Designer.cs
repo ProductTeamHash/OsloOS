@@ -124,7 +124,7 @@
             this.button_WOC9.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC9.BorderColor = System.Drawing.Color.Transparent;
             this.button_WOC9.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC9.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_WOC9.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
             this.button_WOC9.FlatAppearance.BorderSize = 0;
             this.button_WOC9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.button_WOC9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -146,7 +146,7 @@
             this.button_WOC7.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC7.BorderColor = System.Drawing.Color.Transparent;
             this.button_WOC7.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC7.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_WOC7.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
             this.button_WOC7.FlatAppearance.BorderSize = 0;
             this.button_WOC7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.button_WOC7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -168,7 +168,7 @@
             this.button_WOC8.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC8.BorderColor = System.Drawing.Color.Transparent;
             this.button_WOC8.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC8.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_WOC8.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
             this.button_WOC8.FlatAppearance.BorderSize = 0;
             this.button_WOC8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.button_WOC8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -190,7 +190,7 @@
             this.button_WOC5.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC5.BorderColor = System.Drawing.Color.Transparent;
             this.button_WOC5.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_WOC5.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
             this.button_WOC5.FlatAppearance.BorderSize = 0;
             this.button_WOC5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.button_WOC5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -212,7 +212,7 @@
             this.button_WOC6.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC6.BorderColor = System.Drawing.Color.Transparent;
             this.button_WOC6.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC6.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_WOC6.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
             this.button_WOC6.FlatAppearance.BorderSize = 0;
             this.button_WOC6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.button_WOC6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -234,7 +234,7 @@
             this.button_WOC4.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC4.BorderColor = System.Drawing.Color.Transparent;
             this.button_WOC4.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_WOC4.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
             this.button_WOC4.FlatAppearance.BorderSize = 0;
             this.button_WOC4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.button_WOC4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -256,7 +256,7 @@
             this.button_WOC3.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC3.BorderColor = System.Drawing.Color.Transparent;
             this.button_WOC3.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_WOC3.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
             this.button_WOC3.FlatAppearance.BorderSize = 0;
             this.button_WOC3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.button_WOC3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -278,7 +278,7 @@
             this.button_WOC2.BackColor = System.Drawing.Color.Transparent;
             this.button_WOC2.BorderColor = System.Drawing.Color.Transparent;
             this.button_WOC2.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_WOC2.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
             this.button_WOC2.FlatAppearance.BorderSize = 0;
             this.button_WOC2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.button_WOC2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -294,6 +294,7 @@
             this.button_WOC2.Text = "button_WOC2";
             this.button_WOC2.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC2.UseVisualStyleBackColor = false;
+            this.button_WOC2.Click += new System.EventHandler(this.button_WOC2_Click);
             // 
             // button_WOC1
             // 
@@ -335,6 +336,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox1.Enabled = false;
             this.pictureBox1.Location = new System.Drawing.Point(1520, 946);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 111);
@@ -344,6 +346,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox2.Enabled = false;
             this.pictureBox2.Location = new System.Drawing.Point(1347, 946);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 111);
@@ -353,6 +356,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox3.Enabled = false;
             this.pictureBox3.Location = new System.Drawing.Point(1174, 946);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 111);
@@ -362,6 +366,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox4.Enabled = false;
             this.pictureBox4.Location = new System.Drawing.Point(1001, 946);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 111);
@@ -371,6 +376,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox5.Enabled = false;
             this.pictureBox5.Location = new System.Drawing.Point(830, 946);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 111);
@@ -380,6 +386,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox6.Enabled = false;
             this.pictureBox6.Location = new System.Drawing.Point(655, 946);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(100, 111);
@@ -389,6 +396,7 @@
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox7.Enabled = false;
             this.pictureBox7.Location = new System.Drawing.Point(482, 946);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(100, 111);
@@ -398,15 +406,18 @@
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox8.Location = new System.Drawing.Point(310, 946);
+            this.pictureBox8.Enabled = false;
+            this.pictureBox8.Image = global::OsloOS.Properties.Resources.icons8_android_os_100px_2;
+            this.pictureBox8.Location = new System.Drawing.Point(309, 950);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(100, 111);
+            this.pictureBox8.Size = new System.Drawing.Size(100, 102);
             this.pictureBox8.TabIndex = 20;
             this.pictureBox8.TabStop = false;
             // 
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox9.Enabled = false;
             this.pictureBox9.Location = new System.Drawing.Point(58, 970);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(133, 111);
@@ -416,6 +427,7 @@
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox10.Enabled = false;
             this.pictureBox10.Location = new System.Drawing.Point(1729, 970);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(133, 111);
@@ -453,7 +465,6 @@
             this.Controls.Add(this.button_WOC1);
             this.Controls.Add(this.SwipeDownMenuButton2);
             this.Controls.Add(this.SwipeDownMenuButton1);
-            this.Enabled = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainMenu";
             this.Text = "MainMenu";

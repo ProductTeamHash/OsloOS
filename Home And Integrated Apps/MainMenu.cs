@@ -61,5 +61,10 @@ namespace OsloOS
             var form2 = new PullDown();
             form2.Show();
         }
+
+        private void button_WOC2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

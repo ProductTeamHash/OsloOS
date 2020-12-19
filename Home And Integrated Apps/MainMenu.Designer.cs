@@ -466,6 +466,7 @@
             this.Controls.Add(this.SwipeDownMenuButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainMenu";
+            this.ShowInTaskbar = false;
             this.Text = "MainMenu";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.MainMenu_Load);

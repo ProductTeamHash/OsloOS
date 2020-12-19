@@ -65,15 +65,19 @@ namespace OsloOS
         private void Button_WOC2_Click(object sender, EventArgs e)
         {
             //saving for new page system for vm
-            
+
             //Process process = new Process();
             //ProcessStartInfo startInfo = new ProcessStartInfo();
             //startInfo.FileName = "cmd.exe";
             //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            //startInfo.Arguments = "/C \"C:/Program Files/Oracle/VirtualBox/VBoxManage.exe\" --nologo startvm WIN10";
+            //startInfo.Arguments = "/C \"C:/Program Files/Oracle/VirtualBox/VBoxManage.exe\" --nologo startvm PheonixOS_OsloOS";
             //process.StartInfo = startInfo;
             //ActiveForm.TopMost = false;
             //process.Start();
+
+            ActiveForm.TopMost = false;
+            var form2 = new AndroidVM_StartupPage();
+            form2.Show();
         }
     }
 }

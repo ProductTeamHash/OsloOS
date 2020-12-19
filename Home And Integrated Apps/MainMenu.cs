@@ -62,9 +62,18 @@ namespace OsloOS
             form2.Show();
         }
 
-        private void button_WOC2_Click(object sender, EventArgs e)
+        private void Button_WOC2_Click(object sender, EventArgs e)
         {
-
+            //saving for new page system for vm
+            
+            //Process process = new Process();
+            //ProcessStartInfo startInfo = new ProcessStartInfo();
+            //startInfo.FileName = "cmd.exe";
+            //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            //startInfo.Arguments = "/C \"C:/Program Files/Oracle/VirtualBox/VBoxManage.exe\" --nologo startvm WIN10";
+            //process.StartInfo = startInfo;
+            //ActiveForm.TopMost = false;
+            //process.Start();
         }
     }
 }

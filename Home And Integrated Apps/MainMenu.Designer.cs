@@ -30,17 +30,6 @@
         {
             this.SwipeDownMenuButton2 = new System.Windows.Forms.Button();
             this.SwipeDownMenuButton1 = new System.Windows.Forms.Button();
-            this.button_WOC10 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC9 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC7 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC8 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC5 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC6 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC4 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC3 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC2 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC11 = new ePOSOne.btnProduct.Button_WOC();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -51,6 +40,17 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.button_WOC11 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC10 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC9 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC7 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC8 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC5 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC6 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC4 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC3 = new ePOSOne.btnProduct.Button_WOC();
+            this.Button_WOC2 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -96,6 +96,129 @@
             this.SwipeDownMenuButton1.TabIndex = 0;
             this.SwipeDownMenuButton1.UseVisualStyleBackColor = false;
             this.SwipeDownMenuButton1.Click += new System.EventHandler(this.SwipeDownMenuButton1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox1.Enabled = false;
+            this.pictureBox1.Location = new System.Drawing.Point(1520, 946);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 111);
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox2.Enabled = false;
+            this.pictureBox2.Location = new System.Drawing.Point(1347, 946);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 111);
+            this.pictureBox2.TabIndex = 14;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox3.Enabled = false;
+            this.pictureBox3.Location = new System.Drawing.Point(1174, 946);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 111);
+            this.pictureBox3.TabIndex = 15;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox4.Enabled = false;
+            this.pictureBox4.Location = new System.Drawing.Point(1001, 946);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 111);
+            this.pictureBox4.TabIndex = 16;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox5.Enabled = false;
+            this.pictureBox5.Location = new System.Drawing.Point(830, 946);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(100, 111);
+            this.pictureBox5.TabIndex = 17;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox6.Enabled = false;
+            this.pictureBox6.Location = new System.Drawing.Point(655, 946);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(100, 111);
+            this.pictureBox6.TabIndex = 18;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox7.Enabled = false;
+            this.pictureBox7.Location = new System.Drawing.Point(482, 946);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(100, 111);
+            this.pictureBox7.TabIndex = 19;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox8.Enabled = false;
+            this.pictureBox8.Image = global::OsloOS.Properties.Resources.icons8_android_os_100px_2;
+            this.pictureBox8.Location = new System.Drawing.Point(309, 950);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(100, 102);
+            this.pictureBox8.TabIndex = 20;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox9.Enabled = false;
+            this.pictureBox9.Location = new System.Drawing.Point(58, 970);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(133, 111);
+            this.pictureBox9.TabIndex = 21;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Crimson;
+            this.pictureBox10.Enabled = false;
+            this.pictureBox10.Location = new System.Drawing.Point(1729, 970);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(133, 111);
+            this.pictureBox10.TabIndex = 22;
+            this.pictureBox10.TabStop = false;
+            // 
+            // button_WOC11
+            // 
+            this.button_WOC11.BackColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.BorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.ButtonColor = System.Drawing.Color.Crimson;
+            this.button_WOC11.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_WOC11.FlatAppearance.BorderSize = 0;
+            this.button_WOC11.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC11.Location = new System.Drawing.Point(1654, 955);
+            this.button_WOC11.Name = "button_WOC11";
+            this.button_WOC11.OnHoverBorderColor = System.Drawing.Color.Crimson;
+            this.button_WOC11.OnHoverButtonColor = System.Drawing.Color.Crimson;
+            this.button_WOC11.OnHoverTextColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.Size = new System.Drawing.Size(427, 236);
+            this.button_WOC11.TabIndex = 12;
+            this.button_WOC11.Text = "button_WOC11";
+            this.button_WOC11.TextColor = System.Drawing.Color.Transparent;
+            this.button_WOC11.UseVisualStyleBackColor = false;
             // 
             // button_WOC10
             // 
@@ -273,28 +396,27 @@
             this.button_WOC3.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC3.UseVisualStyleBackColor = false;
             // 
-            // button_WOC2
+            // Button_WOC2
             // 
-            this.button_WOC2.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC2.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
-            this.button_WOC2.FlatAppearance.BorderSize = 0;
-            this.button_WOC2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC2.Location = new System.Drawing.Point(278, 921);
-            this.button_WOC2.Name = "button_WOC2";
-            this.button_WOC2.OnHoverBorderColor = System.Drawing.Color.Crimson;
-            this.button_WOC2.OnHoverButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC2.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.Size = new System.Drawing.Size(159, 160);
-            this.button_WOC2.TabIndex = 3;
-            this.button_WOC2.Text = "button_WOC2";
-            this.button_WOC2.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.UseVisualStyleBackColor = false;
-            this.button_WOC2.Click += new System.EventHandler(this.button_WOC2_Click);
+            this.Button_WOC2.BackColor = System.Drawing.Color.Transparent;
+            this.Button_WOC2.BorderColor = System.Drawing.Color.Transparent;
+            this.Button_WOC2.ButtonColor = System.Drawing.Color.Crimson;
+            this.Button_WOC2.FlatAppearance.BorderColor = System.Drawing.Color.Crimson;
+            this.Button_WOC2.FlatAppearance.BorderSize = 0;
+            this.Button_WOC2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.Button_WOC2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_WOC2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_WOC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_WOC2.Location = new System.Drawing.Point(278, 921);
+            this.Button_WOC2.Name = "Button_WOC2";
+            this.Button_WOC2.OnHoverBorderColor = System.Drawing.Color.Crimson;
+            this.Button_WOC2.OnHoverButtonColor = System.Drawing.Color.Crimson;
+            this.Button_WOC2.OnHoverTextColor = System.Drawing.Color.Transparent;
+            this.Button_WOC2.Size = new System.Drawing.Size(159, 160);
+            this.Button_WOC2.TabIndex = 3;
+            this.Button_WOC2.TextColor = System.Drawing.Color.Transparent;
+            this.Button_WOC2.UseVisualStyleBackColor = false;
+            this.Button_WOC2.Click += new System.EventHandler(this.Button_WOC2_Click);
             // 
             // button_WOC1
             // 
@@ -311,129 +433,6 @@
             this.button_WOC1.TextColor = System.Drawing.Color.White;
             this.button_WOC1.UseVisualStyleBackColor = true;
             // 
-            // button_WOC11
-            // 
-            this.button_WOC11.BackColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.ButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC11.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button_WOC11.FlatAppearance.BorderSize = 0;
-            this.button_WOC11.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC11.Location = new System.Drawing.Point(1654, 955);
-            this.button_WOC11.Name = "button_WOC11";
-            this.button_WOC11.OnHoverBorderColor = System.Drawing.Color.Crimson;
-            this.button_WOC11.OnHoverButtonColor = System.Drawing.Color.Crimson;
-            this.button_WOC11.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.Size = new System.Drawing.Size(427, 236);
-            this.button_WOC11.TabIndex = 12;
-            this.button_WOC11.Text = "button_WOC11";
-            this.button_WOC11.TextColor = System.Drawing.Color.Transparent;
-            this.button_WOC11.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox1.Enabled = false;
-            this.pictureBox1.Location = new System.Drawing.Point(1520, 946);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 111);
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox2.Enabled = false;
-            this.pictureBox2.Location = new System.Drawing.Point(1347, 946);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 111);
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox3.Enabled = false;
-            this.pictureBox3.Location = new System.Drawing.Point(1174, 946);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 111);
-            this.pictureBox3.TabIndex = 15;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox4.Enabled = false;
-            this.pictureBox4.Location = new System.Drawing.Point(1001, 946);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 111);
-            this.pictureBox4.TabIndex = 16;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox5.Enabled = false;
-            this.pictureBox5.Location = new System.Drawing.Point(830, 946);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 111);
-            this.pictureBox5.TabIndex = 17;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox6.Enabled = false;
-            this.pictureBox6.Location = new System.Drawing.Point(655, 946);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(100, 111);
-            this.pictureBox6.TabIndex = 18;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox7.Enabled = false;
-            this.pictureBox7.Location = new System.Drawing.Point(482, 946);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(100, 111);
-            this.pictureBox7.TabIndex = 19;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox8.Enabled = false;
-            this.pictureBox8.Image = global::OsloOS.Properties.Resources.icons8_android_os_100px_2;
-            this.pictureBox8.Location = new System.Drawing.Point(309, 950);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(100, 102);
-            this.pictureBox8.TabIndex = 20;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox9.Enabled = false;
-            this.pictureBox9.Location = new System.Drawing.Point(58, 970);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(133, 111);
-            this.pictureBox9.TabIndex = 21;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Crimson;
-            this.pictureBox10.Enabled = false;
-            this.pictureBox10.Location = new System.Drawing.Point(1729, 970);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(133, 111);
-            this.pictureBox10.TabIndex = 22;
-            this.pictureBox10.TabStop = false;
-            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -441,7 +440,7 @@
             this.BackColor = System.Drawing.Color.Crimson;
             this.BackgroundImage = global::OsloOS.Properties.Resources.OsloOS_MainMenu_DarkMode1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1915, 1080);
+            this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -461,7 +460,7 @@
             this.Controls.Add(this.button_WOC6);
             this.Controls.Add(this.button_WOC4);
             this.Controls.Add(this.button_WOC3);
-            this.Controls.Add(this.button_WOC2);
+            this.Controls.Add(this.Button_WOC2);
             this.Controls.Add(this.button_WOC1);
             this.Controls.Add(this.SwipeDownMenuButton2);
             this.Controls.Add(this.SwipeDownMenuButton1);
@@ -489,7 +488,7 @@
         private System.Windows.Forms.Button SwipeDownMenuButton2;
         private System.Windows.Forms.Button SwipeDownMenuButton1;
         private ePOSOne.btnProduct.Button_WOC button_WOC1;
-        private ePOSOne.btnProduct.Button_WOC button_WOC2;
+        private ePOSOne.btnProduct.Button_WOC Button_WOC2;
         private ePOSOne.btnProduct.Button_WOC button_WOC3;
         private ePOSOne.btnProduct.Button_WOC button_WOC4;
         private ePOSOne.btnProduct.Button_WOC button_WOC5;

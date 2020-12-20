@@ -16,5 +16,10 @@ namespace OsloOS.Home_And_Integrated_Apps
         {
             InitializeComponent();
         }
+
+        private void AndroidVM_StartupPage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

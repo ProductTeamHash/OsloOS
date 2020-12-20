@@ -79,5 +79,15 @@ namespace OsloOS
             var form2 = new AndroidVM_StartupPage();
             form2.Show();
         }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

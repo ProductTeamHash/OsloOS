@@ -6,16 +6,16 @@ namespace ePOSOne.btnProduct
 {
     public class Button_WOC : Button
     {
-        private Color _borderColor = Color.Silver;
-        private Color _onHoverBorderColor = Color.Gray;
-        private Color _buttonColor = Color.Red;
-        private Color _onHoverButtonColor = Color.Yellow;
+        private Color _borderColor = Color.Transparent;
+        private Color _onHoverBorderColor = Color.Transparent;
+        private Color _buttonColor = Color.Crimson;
+        private Color _onHoverButtonColor = Color.Crimson;
         private Color _textColor = Color.White;
-        private Color _onHoverTextColor = Color.Gray;
+        private Color _onHoverTextColor = Color.White;
 
         private bool _isHovering;
-        private int _borderThickness = 6;
-        private int _borderThicknessByTwo = 3;
+        private int _borderThickness = 0;
+        private int _borderThicknessByTwo = 0;
 
 
         public Button_WOC()

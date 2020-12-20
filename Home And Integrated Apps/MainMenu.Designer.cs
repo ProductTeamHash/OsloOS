@@ -106,6 +106,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(100, 111);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -197,6 +198,7 @@
             this.pictureBox10.Size = new System.Drawing.Size(133, 111);
             this.pictureBox10.TabIndex = 22;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // button_WOC11
             // 

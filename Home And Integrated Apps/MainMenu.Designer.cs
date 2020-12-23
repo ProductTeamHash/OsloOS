@@ -77,6 +77,7 @@
             this.SwipeDownMenuButton2.Name = "SwipeDownMenuButton2";
             this.SwipeDownMenuButton2.Size = new System.Drawing.Size(521, 35);
             this.SwipeDownMenuButton2.TabIndex = 1;
+            this.SwipeDownMenuButton2.TabStop = false;
             this.SwipeDownMenuButton2.UseVisualStyleBackColor = false;
             this.SwipeDownMenuButton2.Click += new System.EventHandler(this.SwipeDownMenuButton2_Click);
             // 
@@ -94,6 +95,7 @@
             this.SwipeDownMenuButton1.Name = "SwipeDownMenuButton1";
             this.SwipeDownMenuButton1.Size = new System.Drawing.Size(607, 28);
             this.SwipeDownMenuButton1.TabIndex = 0;
+            this.SwipeDownMenuButton1.TabStop = false;
             this.SwipeDownMenuButton1.UseVisualStyleBackColor = false;
             this.SwipeDownMenuButton1.Click += new System.EventHandler(this.SwipeDownMenuButton1_Click);
             // 
@@ -218,6 +220,7 @@
             this.button_WOC11.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.button_WOC11.Size = new System.Drawing.Size(427, 236);
             this.button_WOC11.TabIndex = 12;
+            this.button_WOC11.TabStop = false;
             this.button_WOC11.Text = "button_WOC11";
             this.button_WOC11.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC11.UseVisualStyleBackColor = false;
@@ -240,9 +243,11 @@
             this.button_WOC10.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.button_WOC10.Size = new System.Drawing.Size(369, 232);
             this.button_WOC10.TabIndex = 11;
+            this.button_WOC10.TabStop = false;
             this.button_WOC10.Text = "button_WOC10";
             this.button_WOC10.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC10.UseVisualStyleBackColor = false;
+            this.button_WOC10.Click += new System.EventHandler(this.button_WOC10_Click);
             // 
             // button_WOC9
             // 
@@ -262,9 +267,11 @@
             this.button_WOC9.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.button_WOC9.Size = new System.Drawing.Size(159, 160);
             this.button_WOC9.TabIndex = 10;
+            this.button_WOC9.TabStop = false;
             this.button_WOC9.Text = "button_WOC9";
             this.button_WOC9.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC9.UseVisualStyleBackColor = false;
+            this.button_WOC9.Click += new System.EventHandler(this.button_WOC9_Click);
             // 
             // button_WOC7
             // 
@@ -284,9 +291,11 @@
             this.button_WOC7.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.button_WOC7.Size = new System.Drawing.Size(159, 160);
             this.button_WOC7.TabIndex = 9;
+            this.button_WOC7.TabStop = false;
             this.button_WOC7.Text = "button_WOC7";
             this.button_WOC7.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC7.UseVisualStyleBackColor = false;
+            this.button_WOC7.Click += new System.EventHandler(this.button_WOC7_Click);
             // 
             // button_WOC8
             // 
@@ -306,9 +315,11 @@
             this.button_WOC8.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.button_WOC8.Size = new System.Drawing.Size(159, 160);
             this.button_WOC8.TabIndex = 8;
+            this.button_WOC8.TabStop = false;
             this.button_WOC8.Text = "button_WOC8";
             this.button_WOC8.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC8.UseVisualStyleBackColor = false;
+            this.button_WOC8.Click += new System.EventHandler(this.button_WOC8_Click);
             // 
             // button_WOC5
             // 
@@ -328,9 +339,11 @@
             this.button_WOC5.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.button_WOC5.Size = new System.Drawing.Size(159, 160);
             this.button_WOC5.TabIndex = 7;
+            this.button_WOC5.TabStop = false;
             this.button_WOC5.Text = "button_WOC5";
             this.button_WOC5.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC5.UseVisualStyleBackColor = false;
+            this.button_WOC5.Click += new System.EventHandler(this.button_WOC5_Click);
             // 
             // button_WOC6
             // 
@@ -350,9 +363,11 @@
             this.button_WOC6.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.button_WOC6.Size = new System.Drawing.Size(159, 160);
             this.button_WOC6.TabIndex = 6;
+            this.button_WOC6.TabStop = false;
             this.button_WOC6.Text = "button_WOC6";
             this.button_WOC6.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC6.UseVisualStyleBackColor = false;
+            this.button_WOC6.Click += new System.EventHandler(this.button_WOC6_Click);
             // 
             // button_WOC4
             // 
@@ -372,9 +387,11 @@
             this.button_WOC4.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.button_WOC4.Size = new System.Drawing.Size(159, 160);
             this.button_WOC4.TabIndex = 5;
+            this.button_WOC4.TabStop = false;
             this.button_WOC4.Text = "button_WOC4";
             this.button_WOC4.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC4.UseVisualStyleBackColor = false;
+            this.button_WOC4.Click += new System.EventHandler(this.button_WOC4_Click);
             // 
             // button_WOC3
             // 
@@ -394,9 +411,11 @@
             this.button_WOC3.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.button_WOC3.Size = new System.Drawing.Size(159, 160);
             this.button_WOC3.TabIndex = 4;
+            this.button_WOC3.TabStop = false;
             this.button_WOC3.Text = "button_WOC3";
             this.button_WOC3.TextColor = System.Drawing.Color.Transparent;
             this.button_WOC3.UseVisualStyleBackColor = false;
+            this.button_WOC3.Click += new System.EventHandler(this.button_WOC3_Click);
             // 
             // Button_WOC2
             // 
@@ -416,6 +435,7 @@
             this.Button_WOC2.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.Button_WOC2.Size = new System.Drawing.Size(159, 160);
             this.Button_WOC2.TabIndex = 3;
+            this.Button_WOC2.TabStop = false;
             this.Button_WOC2.TextColor = System.Drawing.Color.Transparent;
             this.Button_WOC2.UseVisualStyleBackColor = false;
             this.Button_WOC2.Click += new System.EventHandler(this.Button_WOC2_Click);
@@ -466,6 +486,7 @@
             this.Controls.Add(this.button_WOC1);
             this.Controls.Add(this.SwipeDownMenuButton2);
             this.Controls.Add(this.SwipeDownMenuButton1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainMenu";
             this.ShowInTaskbar = false;

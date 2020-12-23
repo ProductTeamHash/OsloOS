@@ -89,5 +89,45 @@ namespace OsloOS
         {
 
         }
+
+        private void button_WOC10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_WOC5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

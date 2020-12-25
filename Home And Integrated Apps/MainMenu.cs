@@ -97,7 +97,9 @@ namespace OsloOS
 
         private void button_WOC3_Click(object sender, EventArgs e)
         {
-
+            ActiveForm.TopMost = false;
+            var form2 = new SettingsPage();
+            form2.Show();
         }
 
         private void button_WOC4_Click(object sender, EventArgs e)
